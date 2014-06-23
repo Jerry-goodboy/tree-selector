@@ -11,8 +11,8 @@ Bootstrap tabanlı hiyerarşik seçim listesi.
 ### Kullanım
 
 ```html
-<link href="/assets/css/ahir-tree-selector.css" rel="stylesheet">
-<script type="text/javascript" src="/assets/js/ahir-tree-selector.js"></script>
+<link href="/src/tree-selector.css" rel="stylesheet">
+<script type="text/javascript" src="/src/tree-selector.js"></script>
 
 <div class="listTree"></div>
 
