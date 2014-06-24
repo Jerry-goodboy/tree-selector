@@ -14,7 +14,7 @@
                 <ul>\
                 <% } %>\
                     <% _.each(parent.values, function(child, index) { %>\
-                    <li>\
+                    <li onclick="$(this).children().children().trigger(\'click\')">\
                         <span><input style="margin-top:-4px;" type="checkbox" \
                         <% if ( !_.isUndefined(this) && !_.isUndefined(_.find(this.values, function(elem) { return elem.key === this.key; }, child)) ) { %>\
                         checked="checked"\
